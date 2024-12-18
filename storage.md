@@ -1,7 +1,7 @@
 Storage
 =======
 
-Storage Location Definer
+V6 V6 V6 V6 V6 V6 V6 V6
 ------------------------
 
 After installing and opening the app, you will be asked to create a new
