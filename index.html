@@ -14,7 +14,13 @@
     window.$docsify = {
       alias: {
         '/v6/.*_sidebar.md': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/_sidebar.md',
+        '/v6/': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/README.md',
+        '/v6/(.*)': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/$1',
+
         '/v5/.*_sidebar.md': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/_sidebar.md',
+        '/v5/': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/README.md',
+        '/v5/(.*)': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/$1',
+        
         '/': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/README.md',
         '/(.*)': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/$1'
       },
