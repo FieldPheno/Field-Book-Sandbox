@@ -20,13 +20,14 @@
         '/v5/.*_sidebar.md': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/_sidebar.md',
         '/v5/': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/README.md',
         '/v5/(.*)': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/tags/6.0.0/docs/$1',
-        
+
         '/': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/README.md',
         '/(.*)': 'https://raw.githubusercontent.com/RifeLab/Field-Book-Sandbox/refs/heads/main/docs/$1'
       },
       name:
         '<div class="sidebar-logo">' +
-        '  <span class="sidebar-logo-title">Field Book</span>' +
+          '<img src="_static/icons/icon.png" height="64px" alt="Field Book logo">' +
+          '<span class="sidebar-logo-title">Field Book</span>' +
         "</div>" +
         '<select id="version-selector" name="version" class="sidebar-version-select">' +
           '<option value="v6">v6</option>' +
