@@ -1,13 +1,12 @@
 Storage
 =======
 
-V6 V6 V6 V6 V6 V6 V6 V6
-------------------------
+Setup
+-----
 
-After installing and opening the app, you will be asked to create a new
-folder and define it as the **Storage location** on the device where
-files will be written. In Field Book this step is required. The selected
-**Storage location** can be changed in the
+When installing and opening the app for the first time, you will be asked to select
+or create a folder on the device as the **Storage location** where Field Book app
+files will be written. The selected **Storage location** can be changed in the
 <a href="settings-general.md"><img style="vertical-align: middle;" src="_static/icons/home/cog.png" width="20px"></a> [General Settings](settings-general.md).
 
 <figure align="center" class="image">
