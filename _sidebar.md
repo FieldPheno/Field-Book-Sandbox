@@ -40,4 +40,5 @@
   * [Datagrid](datagrid.md)
   * [Geonav](geonav.md)
   * [Training Resources](training-resources.md)
+  * [Statistics](statistics.md)
 * [About](about.md)
