@@ -1,9 +1,9 @@
-Beta Settings
-=============
+Experimental Settings
+=====================
 
 <figure align="center" class="image">
   <img src="_static/images/settings/beta/settings_beta_framed.png" width="350px"> 
-  <figcaption><i>Beta settings screen layout</i></figcaption> 
+  <figcaption><i>Experimental settings screen layout</i></figcaption> 
 </figure>
 
 #### <img ref="flask" style="vertical-align: middle;" src="_static/icons/settings/beta/flask-outline.png" width="20px"> Repeated Measures

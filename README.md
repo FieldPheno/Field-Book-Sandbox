@@ -38,7 +38,7 @@ When the intro finishes, Field Book will open to its home screen. This screen is
 
 <figure align="center" class="image">
   <img src="_static/images/home_framed.png" width="350px"> 
-  <figcaption><i>Primary Field Book screen</i></figcaption> 
+  <figcaption><i>Field Book home screen</i></figcaption> 
 </figure>
 
 

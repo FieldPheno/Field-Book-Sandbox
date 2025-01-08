@@ -1,9 +1,9 @@
-GeoNav Settings
-===============
+Location Settings
+=================
 
 <figure align="center" class="image">
   <img src="_static/images/settings/geonav/settings_geonav_framed.png" width="400px"> 
-  <figcaption><i>GeoNav settings screen
+  <figcaption><i>Location settings screen
 layout</i></figcaption> 
 </figure>
 

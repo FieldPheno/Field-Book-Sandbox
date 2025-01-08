@@ -1,9 +1,9 @@
-Database Settings
-=================
+Storage Settings
+================
 
 <figure align="center" class="image">
   <img src="_static/images/settings/database/settings_database_framed.png" width="400px"> 
-  <figcaption><i>Database settings screen
+  <figcaption><i>Storage settings screen
 layout</i></figcaption> 
 </figure>
 

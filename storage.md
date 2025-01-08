@@ -4,15 +4,15 @@ Storage
 Setup
 -----
 
-When installing and opening the app for the first time, you will be asked to select
-or create a folder on the device as the **Storage location** where Field Book app
-files will be written. The selected **Storage location** can be changed in the
-<a href="settings-general.md"><img style="vertical-align: middle;" src="_static/icons/home/cog.png" width="20px"></a> [General Settings](settings-general.md).
+One of the required steps when opening the app for the first time is to define the **Storage location** where Field Book app files will be written. This can be an existing folder, or a newly created one.
 
 <figure align="center" class="image">
-  <img src="_static/images/storage_definer_framed.png" width="400px"> 
-  <figcaption><i>Storage location definer layout</i></figcaption> 
+  <img src="_static/images/intro/defining_storage_location_joined.png" width="1100px"> 
+  <figcaption><i>Using a new folder for storage</i></figcaption> 
 </figure>
+
+The selected **Storage location** can be changed in the
+<a href="settings-storage.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/database-cog.png" width="20px"></a> [Storage Settings](settings-storage.md).
 
 
 Subdirectories
