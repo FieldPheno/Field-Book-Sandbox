@@ -48,7 +48,7 @@ Adding a new field
 
 To add a new field in Field Book press the floating <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/plus-circle.png" width="20px"> button in the bottom righthand corner of the Fields section. Then, in
 the resulting dialog, select whether to import from a local file, from
-cloud storage (Dropbox, Google Drive, etc.), create a new field from scratch, or import via a <a href="brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi](brapi.md) connection.
+cloud storage (Dropbox, Google Drive, etc.), create a new field from scratch, or import via a <a href="brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi](brapi.md) connection (if BrAPI is enabled).
 
 A default import source can be set in
 <a href="settings-system.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/cog-outline.png" width="20px"></a> [System Settings](settings-system.md) to skip this dialog.
@@ -57,6 +57,8 @@ A default import source can be set in
   <img src="_static/images/fields/fields_import_joined.png" width="1100px"> 
   <figcaption><i>The Field import process</i></figcaption> 
 </figure>
+
+#### Local storage
 
 Selecting local will display a list of files in the `field_import`
 folder. Only `.csv`, `.xls`, or `.xlsx` files will appear in the import
@@ -87,18 +89,37 @@ device file manager allowing navigation to the the file for import.
 import</i></figcaption> 
 </figure>
 
-Creating a field
-----------------
+#### Create New
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_create_joined.png" width="1100px"> 
   <figcaption><i>The Field creation process</i></figcaption> 
 </figure>
 
-To create a new field directly within Field Book press the <img ref="create" style="vertical-align: middle;" src="_static/icons/fields/table-large-plus.png" width="20px"> icon
-on the toolbar. Set your field name and dimensions, choose which corner
+If you choose to create a new field directly within Field Book you will be asked to fill out some basic information. Set your field name and dimensions, choose which corner
 of the field will contain the first plot, and select zigzag or
-serpentine plot numbering. Unique IDs will be generated automatically.
+serpentine plot numbering. Unique IDs will be generated automatically. Confirm the planned settings are as expected, then press OK.
+
+#### BrAPI
+
+To import a field using BrAPI, first make sure BrAPI is enabled and configured in the <a href="settings-brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi settings](settings-brapi.md)
+
+Then the BrAPI Display Name of the server you connected to will show up in the add field options. Select it, and Field Book will import a list of possible fields (known as
+`studies` in the BrAPI standard) from the server.
+
+Available fields can be filtered by program and trial using the menu
+options in the top toolbar. The list can be filtered by
+**Observation Level** using the dropdown below the server URL.
+
+If the returned list of fields contains more than a single page, the
+**Next** button will advance to the next page. Once a field has been
+selected, the field structure can be previewed by pressing the **Preview
+Field** button
+
+Previewed fields are imported by pressing the **Save** button.
+
+!> Any field can be exported locally, but only fields that have been imported via BrAPI are able to export data via BrAPI. And only if that data is also collected using BrAPI-imported traits.
+
 
 Managing fields
 ---------------
