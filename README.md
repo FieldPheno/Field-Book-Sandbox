@@ -28,7 +28,7 @@ Release](https://github.com/PhenoApps/Field-Book/releases).
 Field Book will display a brief set of slides to introduce you to the app when you open it for the first time.
 
 <figure align="center" class="image">
-  <img src="_static/images/intro/intro_slides_joined.png" width="700px"> 
+  <img src="_static/images/intro/intro_slides_joined.png" width="1100px"> 
   <figcaption><i>Field Book intro slides</i></figcaption> 
 </figure>
 
