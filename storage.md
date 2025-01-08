@@ -55,6 +55,6 @@ is modelled after the Breeding API (BrAPI) standard, and is documented
 in the [Field Book Wiki](https://github.com/PhenoApps/Field-Book/wiki)
 
 The database is automatically backed up to the `database` folder at
-regular intervals. It can also be manually exported and imported in <a href="settings-database.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/database.png" width="20px"></a> [Database Settings](settings-database.md). This feature can be
+regular intervals. It can also be manually exported and imported in <a href="settings-storage.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/database-cog.png" width="20px"></a> [Storage Settings](settings-storage.md). This feature can be
 used to transfer data to a new device or for recreating issues when
 troubleshooting.
