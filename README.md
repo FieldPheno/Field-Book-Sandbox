@@ -28,19 +28,13 @@ Release](https://github.com/PhenoApps/Field-Book/releases).
 Field Book will display a brief set of slides to introduce you to the app when you open it for the first time.
 
 <figure align="center" class="image">
-  <img src="_static/images/intro/intro_slides_1_joined.png" width="700px"> 
-  <figcaption><i>Welcome and features screens</i></figcaption> 
+  <img src="_static/images/intro/intro_slides_joined.png" width="700px"> 
+  <figcaption><i>Field Book intro slides</i></figcaption> 
 </figure>
 
-The intro ends with slides for required and optional setup. Set choices for the required permissions, and specify a storage location before proceeding from the required settings. Optional settings include the choice to load sample data (example fields and traits) and/or enable the tutorial. The images in this documentation will make use of the sample data.
+During this intro you must set choices for the required permissions, and choose a storage location for app files. You also have the option to enable a tutorial and/or load a set of three sample fields and sample traits. The images in this documentation will make use of this sample data.
 
-<figure align="center" class="image">
-  <img src="_static/images/intro/intro_slides_2_joined.png" width="700px"> 
-  <figcaption><i>Required and optional setup</i></figcaption> 
-</figure>
-
-When the intro finishes, Field Book will open to a home screen with links to the major sections of
-the app.
+When the intro finishes, Field Book will open to its home screen. This screen is divided into sections that can be pressed to access each of the major functions of the app.
 
 <figure align="center" class="image">
   <img src="_static/images/home_framed.png" width="350px"> 
@@ -48,20 +42,17 @@ the app.
 </figure>
 
 
-To use Field Book:
+Navigate between these to:
 
 1.  Import your <a href="fields.md"><img style="vertical-align: middle;" src="_static/icons/home/view-module.png" width="20px"></a> [Fields](fields.md)
    
 2.  Create <a href="traits.md"><img style="vertical-align: middle;" src="_static/icons/home/format-list-bulleted.png" width="20px"></a> [Traits](traits.md)
    
-3.  Optionally modify any <a href="settings.md"><img style="vertical-align: middle;" src="_static/icons/home/cog.png" width="20px"></a> [Settings](settings.md)
+3.  <a href="collect.md"><img style="vertical-align: middle;" src="_static/icons/home/barley.png" width="20px"></a>[Collect](collect.md) data
    
-4.  Navigate to <a href="collect.md"><img style="vertical-align: middle;" src="_static/icons/home/barley.png" width="20px"></a>[Collect](collect.md)
-   
-5.  <a href="export.md"><img style="vertical-align: middle;" src="_static/icons/home/save.png" width="20px"></a> [Export](export.md) data to a CSV (comma
-    separated value) file
+4.  And <a href="export.md"><img style="vertical-align: middle;" src="_static/icons/home/save.png" width="20px"></a> [Export](export.md) collected data to a file or database.
 
-You can also view your app usage <a href="statistics.md"><img style="vertical-align: middle;" src="_static/icons/home/chart-bar.png" width="20px"></a>[Statistics](statistics.md), or learn more about the Field Book in the <a href="about.md"><img style="vertical-align: middle;" src="_static/icons/home/information.png" width="20px"></a>[About](about.md) section.
+In addition to these main functions you can customize Field Book <a href="settings.md"><img style="vertical-align: middle;" src="_static/icons/home/cog.png" width="20px"></a> [Settings](settings.md), view summaries of your usage <a href="statistics.md"><img style="vertical-align: middle;" src="_static/icons/home/chart-bar.png" width="20px"></a>[Statistics](statistics.md), or learn more about the app in the <a href="about.md"><img style="vertical-align: middle;" src="_static/icons/home/information.png" width="20px"></a>[About](about.md) section at any time.
 
 The <img ref="changelog" style="vertical-align: middle;" src="_static/icons/home/history.png" width="20px"> Changelog can be accessed from the top toolbar to see new features and
 additions to the app.
