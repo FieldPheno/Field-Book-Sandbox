@@ -63,7 +63,7 @@ A default import source can be set in
 </figure>
 
 Selecting local will display a list of files in the `field_import`
-directory. Only `.csv`, `.xls`, or `.xlsx` files will appear in the import
+folder. Only `.csv`, `.xls`, or `.xlsx` files will appear in the import
 dialog. Filenames and column headers should exclude the following
 special characters:
 

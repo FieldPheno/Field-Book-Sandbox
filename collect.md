@@ -40,7 +40,7 @@ search by, what strategy to use to find a match, and enter a search
 string. Press Add to construct a complex search with an additional field
 and search string, or press OK to execute the search.
 
-- <img ref="resources" style="vertical-align: middle;" src="_static/icons/collect/folder-star.png" width="20px"> **Resources** opens the `resources` directory and can be used to load reference images.
+- <img ref="resources" style="vertical-align: middle;" src="_static/icons/collect/folder-star.png" width="20px"> **Resources** opens the `resources` folder and can be used to load reference images.
 - <img ref="summary" style="vertical-align: middle;" src="_static/icons/collect/file-document.png" width="20px"> **Summary** opens a dialog that displays all info for the current entry.
 
 <figure align="center" class="image">
