@@ -8,22 +8,19 @@ Experiments are represented in Field Book as `fields`. Fields are either
 imported from a file, from a BrAPI-enabled database, or created from
 scratch.
 
-Each field has a unique name, an import date, and a set of `entries`
-which represent the experimental units on which data will be collected
-(e.g., plots, plants). Once data is collected and exported for a given
-field it will display the dates of last edit and export.
+Each field is displayed in the list with an icon that matches its import source, its name, and its number of `entries` which represent the experimental units on which data will be collected (e.g., plots, plants). The icon can be pressed to set the field as the active field. Any other part of the field item can be pressed to open the field detail view.
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_list_item.png" width="325px"> 
-  <figcaption><i>A sample field with a name, import/edit/export dates, and number of
-entries</i></figcaption> 
+  <figcaption><i>A sample field with a name, number of
+entries, and csv import icon</i></figcaption> 
 </figure>
 
 When importing from a file, each row in the file reprents an `entry`.
 Each entry within a field must have the following:
 
 - A `unique identifier`, which is used internally by Field Book to associate data with the specific entry. It must be unique across all of your fields.
-- A `primary identifier`, and a `secondary identifier`. These set the order of advancement through the field's entries, and can be whatever makes the most sense for your experiment. Most often they are numbers from the experimental design (e.g., row/plot, row/column, range/plot).
+- A `primary identifier`, and a `secondary identifier`. These remain visible while advancing through the field's entries, and can be whatever makes the most sense for your experiment. The optional Quick GoTo setting makes them editable, so it can be advantageous to make one of them the plot number if you plan to use it. That way a plot number edit can be used to jump to a specific plot. Common choices are row/plot, range/plot, rep/plot, etc.
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_import_format.png" width="900px"> 
@@ -46,16 +43,15 @@ demonstrates the import format for entry location data (an additional
 `geo_coordinates` column). Imported entry coordinates can then be
 used with the <a href="geonav.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/map-search.png" width="20px"></a> [Geonav](geonav.md) feature.
 
-Importing a new field
----------------------
+Adding a new field
+-------------------
 
-To import a new field into Field Book press the <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/plus-circle.png" width="20px"> icon in the
-upper right-hand corner of the toolbar in the Fields section. Then, in
+To add a new field in Field Book press the floating <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/plus-circle.png" width="20px"> button in the bottom righthand corner of the Fields section. Then, in
 the resulting dialog, select whether to import from a local file, from
-cloud storage (Dropbox, Google Drive, etc.), or via a <a href="brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi](brapi.md) connection.
+cloud storage (Dropbox, Google Drive, etc.), create a new field from scratch, or import via a <a href="brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi](brapi.md) connection.
 
 A default import source can be set in
-<a href="settings-general.md"><img style="vertical-align: middle;" src="_static/icons/home/cog.png" width="20px"></a> [General Settings](settings-general.md) to skip this dialog.
+<a href="settings-system.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/cog-outline.png" width="20px"></a> [System Settings](settings-system.md) to skip this dialog.
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_import_joined.png" width="1100px"> 
