@@ -81,19 +81,18 @@ required columns. Pressing **IMPORT** will finish importing the field.
 #### Cloud storage
 
 If you choose to import from cloud storage, Field Book will open the
-device file manager allowing navigation to the the file for import.
+device file manager. Using the file manager you can select a file anywhere on the device, including from cloud utilities like Google Drive (Press the <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/menu.png" width="20px"> icon in the upper left of the file manager to access the "Open from" menu )
 
 <figure align="center" class="image">
-  <img src="_static/images/fields/fields_cloud_import.png" width="325px"> 
-  <figcaption><i>Navigating to a google drive file for cloud
-import</i></figcaption> 
+  <img src="_static/images/fields/cloud_import_joined.png" width="700px"> 
+  <figcaption><i>Cloud import file manager view</i></figcaption> 
 </figure>
 
 #### Create New
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_create_joined.png" width="1100px"> 
-  <figcaption><i>The Field creation process</i></figcaption> 
+  <figcaption><i>The field creation process</i></figcaption> 
 </figure>
 
 If you choose to create a new field directly within Field Book you will be asked to fill out some basic information. Set your field name and dimensions, choose which corner
@@ -104,19 +103,7 @@ serpentine plot numbering. Unique IDs will be generated automatically. Confirm t
 
 To import a field using BrAPI, first make sure BrAPI is enabled and configured in the <a href="settings-brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi settings](settings-brapi.md)
 
-Then the BrAPI Display Name of the server you connected to will show up in the add field options. Select it, and Field Book will import a list of possible fields (known as
-`studies` in the BrAPI standard) from the server.
-
-Available fields can be filtered by program and trial using the menu
-options in the top toolbar. The list can be filtered by
-**Observation Level** using the dropdown below the server URL.
-
-If the returned list of fields contains more than a single page, the
-**Next** button will advance to the next page. Once a field has been
-selected, the field structure can be previewed by pressing the **Preview
-Field** button
-
-Previewed fields are imported by pressing the **Save** button.
+Then the BrAPI Display Name of the server you connected to will show up as one of the choices in the add field options. Check out the <a href="brapi.md"></a> [BrAPI](brapi.md) section of the documentation for details of the import process, as well as trait import, sync, and data export.
 
 !> Any field can be exported locally, but only fields that have been imported via BrAPI are able to export data via BrAPI. And only if that data is also collected using BrAPI-imported traits.
 
@@ -124,18 +111,27 @@ Previewed fields are imported by pressing the **Save** button.
 Managing fields
 ---------------
 
-To activate a field for data collection, select it from the list of
-fields.
+To set or switch your active field, press the import source icon on the left side of the field item.
 
-Each row in the fields list displays the Date imported, Date edited,
-Date exported, and Number of entries.
+To use your location to set the active field, press the <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/compass-outline.png" width="20px"> icon in the toolbar. This will set the nearest field as the active field (assuming your fields have location info). 
+
+To reorder or sort the fields, press the <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/sort.png" width="20px"> icon in the toolbar. Then choose which field attribute should be used to sort the list.
 
 <figure align="center" class="image">
-  <img src="_static/images/fields/fields_sorting_example_joined.png" width="1100px"> 
-  <figcaption><i>Field management sorting steps</i></figcaption> 
+  <img src="_static/images/fields/fields_sort_framed.png" width="400px"> 
+  <figcaption><i>Field list sort options</i></figcaption> 
 </figure>
 
-Pressing the <img ref="menu" style="vertical-align: middle;" src="_static/icons/traits/dots-vertical.png" width="20px"> icon to the right of the trial info opens a list of options:
+For batch operations, long press one or more field items. This opens the action menu. Use the action menu icons to select all, export selected fields, or delete selected fields.
+
+- **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/check-all.png" width="20px">** Select All removes the trial and all associated data. A confirmation message will be shown first, to confirm that deletion is not triggered accidentally.
+  
+- **Export** Export removes the trial and all associated data. A confirmation message will be shown first, to confirm that deletion is not triggered accidentally.
+
+- **Delete** Delete removes the trial and all associated data. A confirmation message will be shown first, to confirm that deletion is not triggered accidentally.
+
+Field Details
+-------------
 
 - **Sort** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
 
