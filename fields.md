@@ -43,8 +43,8 @@ demonstrates the import format for entry location data (an additional
 `geo_coordinates` column). Imported entry coordinates can then be
 used with the <a href="geonav.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/map-search.png" width="20px"></a> [Geonav](geonav.md) feature.
 
-Adding a new field
--------------------
+Adding a field
+--------------
 
 To add a new field in Field Book press the floating <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/plus-circle.png" width="20px"> button in the bottom righthand corner of the Fields section. Then, in
 the resulting dialog, select whether to import from a local file, from
@@ -126,18 +126,18 @@ To reorder or sort the fields, press the <img ref="add" style="vertical-align: m
 
 For batch operations, long press one or more field items. This opens the action menu. Use the action menu icons to select all, export selected fields, or delete selected fields.
 
-- **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/check-all.png" width="20px">** selects all of the fields in the list.
-  
-- **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/file-export-outline.png" width="20px">** initiates a data export for all selected fields.
-
-- **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/delete.png" width="20px">** Deletes all selected fields. A confirmation message will be shown first, to confirm the list of fields to be deleted.
-
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_delete_framed.png" width="400px"> 
   <figcaption><i>Delete fields confirmation</i></figcaption> 
 </figure>
 
-Field Details
+  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/check-all.png" width="20px">** selects all of the fields in the list.
+  
+  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/file-export-outline.png" width="20px">** initiates a data export for all selected fields.
+
+  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/delete.png" width="20px">** Deletes all selected fields. A confirmation message will be shown first, to confirm the list of fields to be deleted.
+
+Field details
 -------------
 
 Pressing a field item in the fields list opens a detail view for the field
