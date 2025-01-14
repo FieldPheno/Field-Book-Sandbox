@@ -131,24 +131,32 @@ For batch operations, long press one or more field items. This opens the action 
   <figcaption><i>Delete fields confirmation</i></figcaption> 
 </figure>
 
-  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/check-all.png" width="20px">** selects all of the fields in the list.
+<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/check-all.png" width="25px"> selects all of the fields in the list.
   
-  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/file-export-outline.png" width="20px">** initiates a data export for all selected fields.
+<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/file-export-outline.png" width="25px"> initiates a data export for all selected fields.
 
-  **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/delete.png" width="20px">** Deletes all selected fields. A confirmation message will be shown first, to confirm the list of fields to be deleted.
+<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/delete.png" width="25px"> Deletes all selected fields. A confirmation message will be shown first, to confirm the list of fields to be deleted.
 
 Field details
 -------------
 
-Pressing a field item in the fields list opens a detail view for the field
+Pressing a field item in the fields list opens a detail view for the field.
 
 <figure align="center" class="image">
   <img src="_static/images/fields/field_detail_framed.png" width="400px"> 
   <figcaption><i>Field detail view</i></figcaption> 
 </figure>
 
-- **Sort** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
+The **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/delete.png" width="20px">** in the toolbar can be used to delete the field. A confirmation message will be shown first, to confirm that deletion is not triggered accidentally.
 
-- **Sync** connects to the server specified in <a href="settings-brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi settings](settings-brapi.md), updating the trial with new data that has been added from other sources since the last sync or import. This option will not work for trials imported from a file.
+The first collapsible section includes metadata about the field (import source, entry count, attribute count), and buttons that can be used to rename the field or sort the entries.
 
-- **Delete** removes the trial and all associated data. A confirmation message will be shown first, to confirm that deletion is not triggered accidentally.
+  - **Rename** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
+
+  - **Sort** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
+
+The following sections can be pressed to COLLECT data for the field, EXPORT the field's data, and (if the field was imported via BrAPI) SYNC the field's data by pulling in any new observations.
+
+The final collapsible section summarizes that data that has been collected for the field so far. It shows an overall trait and observation count, and then for each trait a collapsible card with the observation count for the trait, the percentage of entries with observations of the trait, and, if applicable for the trait type, a chart showing the distribution of observations.
+
+
