@@ -19,8 +19,8 @@ entries, and csv import icon</i></figcaption>
 When importing from a file, each row in the file reprents an `entry`.
 Each entry within a field must have the following:
 
-- A `unique identifier`, which is used internally by Field Book to associate data with the specific entry. It must be unique across all of your fields.
-- A `primary identifier`, and a `secondary identifier`. These remain visible while advancing through the field's entries, and can be whatever makes the most sense for your experiment. The optional Quick GoTo setting makes them editable, so it can be advantageous to make one of them the plot number if you plan to use it. That way a plot number edit can be used to jump to a specific plot. Common choices are row/plot, range/plot, rep/plot, etc.
+- A `unique identifier`, which is used internally by Field Book to associate data with the specific entry. It must be unique across all of your fields. The sample field import file shown below contains a unique identifier called **plot_id** (highlighted in red).
+- A `primary identifier`, and a `secondary identifier`. These remain visible while advancing through the field's entries, and can be whatever makes the most sense for your experiment. The optional Quick GoTo setting makes them editable, so it can be advantageous to make one of them the plot number if you plan to use it. That way a plot number edit can be used to jump to a specific plot. Common choices are row/plot, range/plot, rep/plot, etc. The sample field import file contains primary and secondary unique identifiers called **row** and **plot** (highlighted in blue).
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_import_format.png" width="900px"> 
@@ -55,7 +55,7 @@ A default import source can be set in
 
 <figure align="center" class="image">
   <img src="_static/images/fields/fields_import_joined.png" width="1100px"> 
-  <figcaption><i>The Field import process</i></figcaption> 
+  <figcaption><i>The Field import process from local storage</i></figcaption>
 </figure>
 
 #### Local storage
@@ -151,11 +151,11 @@ The **<img ref="add" style="vertical-align: middle;" src="_static/icons/fields/d
 
 The first collapsible section includes metadata about the field (import source, entry count, attribute count), and buttons that can be used to rename the field or sort the entries.
 
-  - **Rename** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
+  - **Rename** is used to edit the name displayed for the field throughout the app.
 
   - **Sort** provides a dialog to update the plot ordering. Populate the sort menu by pressing the <img ref="plus" style="vertical-align: middle;" src="_static/icons/fields/plus.png" width="20px"> icon, and selecting from the list of imported columns. Once columns have been added, change their relative priority by using the <img ref="reorder" style="vertical-align: middle;" src="_static/icons/traits/reorder-horizontal.png" width="20px"> icon to drag and reorder them. Press the <img ref="sort" style="vertical-align: middle;" src="_static/icons/fields/sort-ascending.png" width="20px"> icon to toggle the sort between ascending and descending. Press the <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> icon to remove a column.
 
-The following sections can be pressed to COLLECT data for the field, EXPORT the field's data, and (if the field was imported via BrAPI) SYNC the field's data by pulling in any new observations.
+The following sections can be pressed to <a href="collect.md"><img style="vertical-align: middle;" src="_static/icons/home/barley.png" width="20px"></a>[Collect](collect.md) data for the field, <a href="export.md"><img style="vertical-align: middle;" src="_static/icons/home/save.png" width="20px"></a> [Export](export.md) the field's data, and (if the field was imported via BrAPI) <a href="brapi.md"><img style="vertical-align: middle;" src="_static/icons/.png" width="20px"></a> [Brapi](brapi.md) the field's data by pulling in any new observations.
 
 The final collapsible section summarizes that data that has been collected for the field so far. It shows an overall trait and observation count, and then for each trait a collapsible card with the observation count for the trait, the percentage of entries with observations of the trait, and, if applicable for the trait type, a chart showing the distribution of observations.
 
