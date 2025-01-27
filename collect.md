@@ -53,11 +53,6 @@ toolbar opens a dialog to customize which data fields and traits are
 shown. Selecting a trait from the summary screen navigates to that
 trait.
 
-<figure align="center" class="image">
-  <img src="_static/images/collect/collect_summary_edit.png" width="325px"> 
-  <figcaption><i>Customizing the summary display</i></figcaption> 
-</figure>
-
 <img ref="unlocked" style="vertical-align: middle;" src="_static/icons/collect/lock-open-outline.png" width="20px"> **Lock** adds restrictions on data input to prevent accidental changes. Pressing the icon multiple times will cycle through three states:
 -   <img ref="unlocked" style="vertical-align: middle;" src="_static/icons/collect/lock-open-outline.png" width="20px"> **Unlocked** is the default, unfrozen state that allows trait values to be entered, edited, or deleted.
 -   <img ref="locked" style="vertical-align: middle;" src="_static/icons/collect/lock.png" width="20px"> **Locked** freezes the collect input so no values can be entered, modified, or deleted.
