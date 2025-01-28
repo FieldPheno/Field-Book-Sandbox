@@ -25,6 +25,6 @@ The column used for the row header can be changed by pressing the
 icon in the toolbar, then selecting a different attribute to use.
 
 <figure align="center" class="image">
-  <img src="_static/images/datagrid/datagrid_edit_rows_joined.png" width="700px"> 
+  <img src="_static/images/datagrid/datagrid_edit_rows_joined.png" width="1100px"> 
   <figcaption><i>Changing the row header from plot_id to plot</i></figcaption> 
 </figure>
