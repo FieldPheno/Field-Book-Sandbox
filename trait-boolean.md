@@ -21,6 +21,6 @@ Collect layout
 --------------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_boolean_framed.png" width="400px"> 
+  <img src="_static/images/traits/formats/collect_boolean_framed.png" width="350px"> 
   <figcaption><i>Boolean trait collection interface</i></figcaption> 
 </figure>

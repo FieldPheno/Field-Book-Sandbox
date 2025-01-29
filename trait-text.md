@@ -22,6 +22,6 @@ Collect layout
 --------------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_text_framed.png" width="400px"> 
+  <img src="_static/images/traits/formats/collect_text_framed.png" width="350px"> 
   <figcaption><i>Text trait collection interface</i></figcaption> 
 </figure>

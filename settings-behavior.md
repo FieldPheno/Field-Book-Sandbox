@@ -5,7 +5,7 @@ Behavior
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/behavior/settings_behavior_framed.png" width="400px"> 
+  <img src="_static/images/settings/behavior/settings_behavior_framed.png" width="350px"> 
   <figcaption><i>Behavior settings screen
 layout</i></figcaption> 
 </figure>

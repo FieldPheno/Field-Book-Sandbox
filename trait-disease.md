@@ -28,6 +28,6 @@ Collect layout
 --------------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_disease_framed.png" width="400px"> 
+  <img src="_static/images/traits/formats/collect_disease_framed.png" width="350px"> 
   <figcaption><i>Disease trait collection interface</i></figcaption> 
 </figure>

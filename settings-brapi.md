@@ -5,7 +5,7 @@ Configuration
 -------------
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_framed.png" width="400px"> 
+  <img src="_static/images/settings/brapi/settings_brapi_framed.png" width="350px"> 
   <figcaption><i>BrAPI Configuration
 Settings</i></figcaption> 
 </figure>
@@ -66,7 +66,7 @@ Advanced Auth Settings
 ----------------------
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_2_framed.png" width="400px"> 
+  <img src="_static/images/settings/brapi/settings_brapi_2_framed.png" width="350px"> 
   <figcaption><i>BrAPI Advanced Auth Settings</i></figcaption> 
 </figure>
 

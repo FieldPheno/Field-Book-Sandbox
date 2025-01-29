@@ -2,7 +2,7 @@ Location Settings
 =================
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/location/settings_location_framed.png" width="400px"> 
+  <img src="_static/images/settings/location/settings_location_framed.png" width="350px"> 
   <figcaption><i>Location settings screen layout</i></figcaption> 
 </figure>
 

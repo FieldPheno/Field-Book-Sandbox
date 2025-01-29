@@ -2,7 +2,7 @@ Storage Settings
 ================
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/storage/settings_storage_framed.png" width="400px"> 
+  <img src="_static/images/settings/storage/settings_storage_framed.png" width="350px"> 
   <figcaption><i>Storage settings screen
 layout</i></figcaption> 
 </figure>

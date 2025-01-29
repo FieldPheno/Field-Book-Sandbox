@@ -2,7 +2,7 @@ Appearance Settings
 ===================
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/appearance/settings_appearance_framed.png" width="400px"> 
+  <img src="_static/images/settings/appearance/settings_appearance_framed.png" width="350px"> 
   <figcaption><i>Appearance settings screen
 layout</i></figcaption> 
 </figure>
@@ -47,7 +47,7 @@ Allows the user to change which default toolbar buttons are displayed on
 the Collect screen.
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/appearance/settings_appearance_toolbar_framed.png" width="400px"> 
+  <img src="_static/images/settings/appearance/settings_appearance_toolbar_framed.png" width="350px"> 
   <figcaption><i>Turn default toolbar options
 on/off</i></figcaption> 
 </figure>

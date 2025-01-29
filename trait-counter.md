@@ -22,6 +22,6 @@ Collect layout
 --------------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_counter_framed.png" width="400px"> 
+  <img src="_static/images/traits/formats/collect_counter_framed.png" width="350px"> 
   <figcaption><i>Counter trait collection interface</i></figcaption> 
 </figure>
