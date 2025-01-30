@@ -6,7 +6,7 @@
 * Function
   * [Collect](collect.md)
   * [Export](export.md)
-* Settings
+* [Settings](settings/_sidebar.md)
   * [Profile](settings-profile.md)
   * [Features](settings-features.md)
   * [Appearance](settings-appearance.md)
