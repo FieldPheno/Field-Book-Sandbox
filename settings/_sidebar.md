@@ -2,11 +2,11 @@
 * Structure
   * [Storage](storage.md)
   * [Fields](fields.md)
-  * [Traits](traits/traits.md)
+  * [Traits](traits)
 * Function
   * [Collect](collect.md)
   * [Export](export.md)
-* [Settings](settings/settings.md)
+* [Settings](settings)
   * [Profile](settings/settings-profile.md)
   * [Features](settings/settings-features.md)
   * [Appearance](settings/settings-appearance.md)
