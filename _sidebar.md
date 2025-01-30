@@ -2,11 +2,11 @@
 * Structure
   * [Storage](storage.md)
   * [Fields](fields.md)
-  * [Traits](traits/_sidebar.md)
+  * [Traits](traits/traits.md)
 * Function
   * [Collect](collect.md)
   * [Export](export.md)
-* [Settings]((settings/_sidebar.md))
+* [Settings](settings/settings.md)
 * [Statistics](statistics.md)
 * [About](about.md)
 * Extra
