@@ -7,6 +7,16 @@
   * [Collect](collect.md)
   * [Export](export.md)
 * Settings
+  * [Profile](settings-profile.md)
+  * [Features](settings-features.md)
+  * [Appearance](settings-appearance.md)
+  * [Behavior](settings-behavior.md)
+  * [Location](settings-location.md)
+  * [Sounds](settings-sounds.md)
+  * [BrAPI](settings-brapi.md)
+  * [System](settings-system.md)
+  * [Storage](settings-storage.md)
+  * [Experimental](settings-experimental.md)
 * [Statistics](statistics.md)
 * [About](about.md)
 * Extra
