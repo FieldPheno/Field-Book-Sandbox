@@ -22,7 +22,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_audio_framed.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_audio_framed.png" width="350px"> 
   <figcaption><i>Audio trait creation dialog</i></figcaption> 
 </figure>
 

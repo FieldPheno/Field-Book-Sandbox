@@ -21,7 +21,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_usb_camera.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_usb_camera.png" width="350px"> 
   <figcaption><i>USB Camera trait creation dialog</i></figcaption> 
 </figure>
 

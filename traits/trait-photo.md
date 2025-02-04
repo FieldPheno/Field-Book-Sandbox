@@ -12,12 +12,12 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_camera_options_framed.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_camera_options_framed.png" width="350px"> 
   <figcaption><i>Photo trait device options</i></figcaption> 
 </figure>
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_photo_framed.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_photo_framed.png" width="350px"> 
   <figcaption><i>Photo trait creation dialog (system camera)</i></figcaption> 
 </figure>
 

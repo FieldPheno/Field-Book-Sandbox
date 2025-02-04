@@ -13,7 +13,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_boolean_framed.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_boolean_framed.png" width="350px"> 
   <figcaption><i>Boolean trait creation dialog</i></figcaption> 
 </figure>
 
