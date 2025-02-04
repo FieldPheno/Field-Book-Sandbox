@@ -15,7 +15,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_date.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_date_framed.png" width="325px"> 
   <figcaption><i>Date trait creation dialog</i></figcaption> 
 </figure>
 

@@ -16,7 +16,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_gnss.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_gnss_framed.png" width="325px"> 
   <figcaption><i>GNSS trait creation dialog</i></figcaption> 
 </figure>
 

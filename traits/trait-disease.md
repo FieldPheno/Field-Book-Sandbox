@@ -1,11 +1,10 @@
-<img ref="disease" style="vertical-align: middle;" src="_static/icons/formats/bug.png" width="40px"> Disease Trait
+<img ref="disease" style="vertical-align: middle;" src="_static/icons/formats/bug.png" width="40px"> Disease RatingTrait
 ======================================================================
 
 Overview
 --------
 
-The disease trait format is used for collecting ratings of both disease
-incidence and severity. It is created with a trait name and optional
+The disease rating trait format is used for collecting ratings of both disease incidence and severity. It is created with a trait name and optional
 details. The incidence scale can be adjusted by editing the
 `disease_severity.txt` file in the `traits` folder.
 
@@ -20,7 +19,7 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_disease_rating.png" width="325px"> 
+  <img src="_static/images/traits/formats/create_disease_framed.png" width="325px"> 
   <figcaption><i>Disease trait creation dialog</i></figcaption> 
 </figure>
 

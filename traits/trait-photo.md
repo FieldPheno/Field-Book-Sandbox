@@ -4,26 +4,46 @@
 Overview
 --------
 
-The photo trait format is used to capture images. It is created with a
-trait name and optional details.
+The photo trait formats are used to capture images. The creation process starts by picking a device-specific format. The simplest option is to use the system camera, but external devices (<img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/camera-gopro.png" width="20px"> GoPro, <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="20px"> USB, or <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> Canon) are also supported
 
-On the collect page, the camera icon opens the device camera to capture
-images. Multiple photos can be captured for each entry. 
-
-Captured photos are stored in `.jpg` format, and named by using underscores to join the entry's unique_id, the trait name, the photo number, and a timestamp. The resulting files are stored in a picture folder within a field-specific subfolder of `plot_data`. An example photo filepath would be `plot_data/FIELD_NAME/picture/PHOTO_FILE_NAME.jpg`.
+<img ref="usb_camera" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="40px">
 
 Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_photo.png" width="325px"> 
-  <figcaption><i>Photo trait creation dialog</i></figcaption> 
+  <img src="_static/images/traits/formats/create_camera_options_framed.png" width="325px"> 
+  <figcaption><i>Photo trait device options</i></figcaption> 
 </figure>
+
+<figure align="center" class="image">
+  <img src="_static/images/traits/formats/create_photo_framed.png" width="325px"> 
+  <figcaption><i>Photo trait creation dialog (system camera)</i></figcaption> 
+</figure>
+
+On the collect page, pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> icon captures an image from the camera. Pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/cog.png" width="20px"> icon opens a settings dialog, where the resolution, preview, and caputre options can be adjusted. Multiple photos can be captured for each entry. 
 
 Collect layout
 --------------
 
 <figure align="center" class="image">
   <img src="_static/images/traits/formats/collect_photo_framed.png" width="350px"> 
-  <figcaption><i>Photo trait collection interface</i></figcaption> 
+  <figcaption><i>Photo trait collection interface (system camera)</i></figcaption> 
+</figure>
+
+<figure align="center" class="image">
+  <img src="_static/images/traits/formats/collect_photo_settings_framed.png" width="350px"> 
+  <figcaption><i>Photo trait collection settings (system camera)</i></figcaption> 
+</figure>
+
+Captured photos are stored in `.jpg` format, and named by using underscores to join the entry's unique_id, the trait name, the photo number, and a timestamp. The resulting files are stored in a picture folder within a field-specific subfolder of `plot_data`. An example photo filepath would be `plot_data/FIELD_NAME/picture/PHOTO_FILE_NAME.jpg`.
+
+External devices
+----------------
+
+The photo trait formats for capturing images from external devices work the same way as with the system camera, the only difference is the initial setup to connect to the device. Connect by pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/connection.png" width="20px"> icon when you first access the trait on the collect screen
+
+<figure align="center" class="image">
+  <img src="_static/images/traits/formats/collect_gopro_framed.png" width="350px"> 
+  <figcaption><i>Photo trait collection interface (GoPro)</i></figcaption> 
 </figure>
