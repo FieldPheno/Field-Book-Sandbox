@@ -6,8 +6,6 @@ Overview
 
 The photo trait formats are used to capture images. The creation process starts by picking a device-specific format. The simplest option is to use the system camera, but external devices (<img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/camera-gopro.png" width="20px"> GoPro, <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="20px"> USB, or <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> Canon) are also supported
 
-<img ref="usb_camera" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="40px">
-
 Creation
 --------
 
