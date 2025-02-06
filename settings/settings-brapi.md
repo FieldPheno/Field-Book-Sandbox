@@ -1,14 +1,17 @@
 BrAPI Settings
 ==============
 
-Configuration
--------------
-
 <figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_framed.png" width="350px"> 
-  <figcaption><i>BrAPI Configuration
-Settings</i></figcaption> 
+  <img src="_static/images/settings/brapi/settings_brapi_1_framed.png" width="350px"> 
+  <figcaption><i>BrAPI settings screen layout</i></figcaption> 
 </figure>
+
+#### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/server-network.png" width="20px"> Enable BrAPI
+
+Enable/Disable BrAPI throughout Field Book app. Disabling BrAPI hides all other BrAPI settings, and removes BrAPI as an option from imports and exports.
+
+Server
+------
 
 #### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/link-plus.png" width="20px"> BrAPI Base URL
 
@@ -19,10 +22,47 @@ Set the server URL when importing via BrAPI.
   <figcaption><i>BrAPI Base URL setting</i></figcaption> 
 </figure>
 
-#### <img ref="authorize" style="vertical-align: middle;" src="_static/icons/settings/brapi/open-in-new.png" width="20px"> Authorize BrAPI
+#### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/rename-outline.png" width="20px"> BrAPI Base URL
 
-Open the authorization page to login to the BrAPI server and allow Field
-Book to communicate with it.
+Set the display name Field Book should use when referring to the BrAPI server.
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/brapi/settings_brapi_display_name.png" width="325px"> 
+  <figcaption><i>BrAPI Display Name setting</i></figcaption> 
+</figure>
+
+Authorization
+-------------
+
+#### <img ref="version" style="vertical-align: middle;" src="_static/icons/settings/brapi/alpha-v-box-outline.png" width="20px"> OIDC Flow
+
+BrAPI server authentication version. Defaults to OAuth2 Implicit Grant.
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/brapi/settings_brapi_oidc_flow.png" width="325px"> 
+  <figcaption><i>BrAPI OIDC flow setting</i></figcaption> 
+</figure>
+
+#### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/link-plus.png" width="20px"> OIDC Discovery URL
+
+The location of the OIDC discovery JSON document.
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/brapi/settings_brapi_oidc_url.png" width="325px"> 
+  <figcaption><i>BrAPI OIDC url setting</i></figcaption> 
+</figure>
+
+#### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/rename-outline.png" width="20px"> OIDC Client ID and OIDC Scope
+
+Optional settings for when ODIC Client ID and Scope need to be specified.
+
+Advanced
+--------
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/brapi/settings_brapi_2_framed.png" width="350px"> 
+  <figcaption><i>BrAPI Advanced Settings</i></figcaption> 
+</figure>
 
 #### <img ref="version" style="vertical-align: middle;" src="_static/icons/settings/brapi/alpha-v-box-outline.png" width="20px"> BrAPI Version
 
@@ -62,34 +102,17 @@ before timing out. Defaults to 2 minutes.
   <figcaption><i>BrAPI server timeout setting</i></figcaption> 
 </figure>
 
-Advanced Auth Settings
-----------------------
+#### <img ref="timeout" style="vertical-align: middle;" src="_static/icons/settings/brapi/history.png" width="20px"> Cache Invalidation
+
+Set the interval for Field Book to invalidate/refresh cached BrAPI data. Cache refreshes are important for field and trait imports to be able to capture new data from the BrAPI server.
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_2_framed.png" width="350px"> 
-  <figcaption><i>BrAPI Advanced Auth Settings</i></figcaption> 
+  <img src="_static/images/settings/brapi/settings_brapi_cache_invalidation.png" width="325px"> 
+  <figcaption><i>BrAPI cache invalidation</i></figcaption> 
 </figure>
 
-#### <img ref="version" style="vertical-align: middle;" src="_static/icons/settings/brapi/alpha-v-box-outline.png" width="20px"> OIDC Flow
-
-BrAPI server authentication version. Defaults to OAuth2 Implicit Grant.
-
-<figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_oidc_flow.png" width="325px"> 
-  <figcaption><i>BrAPI OIDC flow setting</i></figcaption> 
-</figure>
-
-#### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/link-plus.png" width="20px"> OIDC Discovery URL
-
-The location of the OIDC discovery JSON document.
-
-<figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_oidc_url.png" width="325px"> 
-  <figcaption><i>BrAPI OIDC url setting</i></figcaption> 
-</figure>
-
-BrAPI Variables
----------------
+Preferences
+-----------
 
 #### <img ref="display" style="vertical-align: middle;" src="_static/icons/settings/brapi/view-list-outline.png" width="20px"> Value vs Label Display
 
@@ -99,21 +122,4 @@ from a BrAPI Variable.
 <figure align="center" class="image">
   <img src="_static/images/settings/brapi/settings_brapi_value_label.png" width="325px"> 
   <figcaption><i>BrAPI Value vs Label setting</i></figcaption> 
-</figure>
-
-Community Servers
------------------
-
-#### <img ref="barcode" style="vertical-align: middle;" src="_static/icons/settings/brapi/barcode-scan.png" width="20px"> Scan a server barcode
-
-Add a BrAPI server by scanning a URL barcode.
-
-#### Advanced
-
-Access servers from the BrAPI community.
-
-<figure align="center" class="image">
-  <img src="_static/images/settings/brapi/settings_brapi_database_whitelist.png" width="325px"> 
-  <figcaption><i>BrAPI database
-whitelist</i></figcaption> 
 </figure>
