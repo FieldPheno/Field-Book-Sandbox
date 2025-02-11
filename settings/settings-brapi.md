@@ -54,7 +54,7 @@ The location of the OIDC discovery JSON document.
 
 #### <img ref="url" style="vertical-align: middle;" src="_static/icons/settings/brapi/rename-outline.png" width="20px"> OIDC Client ID and OIDC Scope
 
-Optional settings for when ODIC Client ID and Scope need to be specified.
+Optional settings for when OIDC Client ID and Scope need to be specified.
 
 Advanced
 --------
@@ -94,7 +94,7 @@ Set the chunk size. Defaults to 500.
 
 #### <img ref="timeout" style="vertical-align: middle;" src="_static/icons/settings/brapi/timer-outline.png" width="20px"> Server Timeout
 
-Set the time limit in seconds to wait for a repsonse from the server
+Set the time limit in seconds to wait for a response from the server
 before timing out. Defaults to 2 minutes.
 
 <figure align="center" class="image">

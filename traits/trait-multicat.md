@@ -4,9 +4,9 @@
 Overview
 --------
 
-The categorical trait format is used when trait values fall into a set
+The multicat trait format is used when trait values fall into a set
 of discrete categories. Categories are invidiually added in the
-`Categories` section of the create scren. Categories within a multicat
+`Categories` section of the create screen. Categories within a multicat
 trait must be unique. Details text is displayed under the trait name on
 the collect screen.
 

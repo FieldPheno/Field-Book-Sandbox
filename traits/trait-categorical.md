@@ -5,7 +5,7 @@ Overview
 --------
 
 The categorical trait format is used when trait values fall into a set
-of discrete categories. Categories are invidiually added in the
+of discrete categories. Categories are individually added in the
 `Categories` section of the create screen. Details text is displayed
 under the trait name on the collect page.
 

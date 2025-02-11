@@ -1,4 +1,4 @@
-<img ref="audio" style="vertical-align: middle;" src="_static/icons/formats/close-circle.png" width="40px"> Boolean Trait
+<img ref="boolean" style="vertical-align: middle;" src="_static/icons/formats/close-circle.png" width="40px"> Boolean Trait
 ===============================================================================
 
 Overview

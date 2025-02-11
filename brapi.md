@@ -79,10 +79,10 @@ The final step provides an opportunity to modify trait details like the trait la
 
 Once you are satisified with the traits, press the Import button at the bottom of the screen to save them for use in Field Book.
 
-<img ref="categorical" style="vertical-align: middle;" src="_static/icons/fields/sync.png" width="40px"> Sync
--------------------------------------------------------------------------------------------------------------
+Sync
+----
 
-The BrAPI sync option is found on the field detail page of BrAPI fields. Sync connects to the server specified in <a href="settings-brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi settings](settings-brapi.md), updating the field with new data that has been added from other sources since the last sync or import. This option will not work for fields imported from a file.
+The <img ref="add" style="vertical-align: middle;" src="_static/icons/fields/sync.png" width="20px"> BrAPI sync option is found on the field detail page of BrAPI fields. Sync connects to the server specified in <a href="settings-brapi.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/server-network.png" width="20px"></a> [Brapi settings](settings-brapi.md), updating the field with new data that has been added from other sources since the last sync or import. This option will not work for fields imported from a file.
 
 <figure align="center" class="image">
   <img src="_static/images/brapi/brapi_sync_joined.png" width="1100px"> 

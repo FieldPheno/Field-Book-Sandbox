@@ -4,7 +4,7 @@
 Overview
 --------
 
-The photo trait formats are used to capture images. The creation process starts by picking a device-specific format. The simplest option is to use the system camera, but external devices (<img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/camera-gopro.png" width="20px"> GoPro, <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="20px"> USB, or <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> Canon) are also supported
+The photo trait formats are used to capture images. The creation process starts by picking a device-specific format. The simplest option is to use the system camera, but external devices (<img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/camera-gopro.png" width="20px"> GoPro, <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/webcam.png" width="20px"> USB, or <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> Canon) are also supported.
 
 Creation
 --------
@@ -19,7 +19,7 @@ Creation
   <figcaption><i>Photo trait creation dialog (system camera)</i></figcaption> 
 </figure>
 
-On the collect page, pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> icon captures an image from the camera. Pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/cog.png" width="20px"> icon opens a settings dialog, where the resolution, preview, and caputre options can be adjusted. Multiple photos can be captured for each entry. 
+On the collect page, pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> icon captures an image from the camera. Pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/cog.png" width="20px"> icon opens a settings dialog, where the resolution, preview, and capture options can be adjusted. Multiple photos can be captured for each entry. 
 
 Collect layout
 --------------

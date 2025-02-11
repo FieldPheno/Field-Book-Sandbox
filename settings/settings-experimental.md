@@ -19,7 +19,7 @@ next to the trait value entry box on the collect screen.
 When pressed it creates a new entry field for collecting an additional
 observation on the same plot for the same trait.
 
-!> To export data that includes repeated measures make sure to chose the
+!> To export data that includes repeated measures make sure to choose the
 **Database** format or to use **BrAPI**. These formats allow repeated
 measures to be differentiated by timestamp. If exporting in **Table**
 format then only the latest measurement will be included.
