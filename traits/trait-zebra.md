@@ -16,20 +16,9 @@ and are saved as defaults. Pressing the print button will print the
 desired number of labels, each containing a barcode and ID for the
 specific entry, along with any additional selected data.
 
-Creation
---------
-
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_zebra_framed.png" width="350px"> 
-  <figcaption><i>Zebra Label Print trait creation dialog</i></figcaption> 
-</figure>
-
-Collect layout
---------------
-
-<figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_zebra_label_print_framed.png" width="350px"> 
-  <figcaption><i>Zebra Label Print trait collection interface</i></figcaption> 
+  <img src="_static/images/traits/formats/zebra_format_joined.png" width="700px"> 
+  <figcaption><i>Zebra Label Print trait creation dialog and collect format</i></figcaption> 
 </figure>
 
 Troubleshooting

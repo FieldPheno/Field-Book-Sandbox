@@ -12,20 +12,9 @@ used in conjunction with the
 <a href="geonav.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/map-search.png" width="20px"></a> [Geonav](geonav.md) feature to automatically navigate
 through the field.
 
-Creation
---------
-
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_gnss_framed.png" width="350px"> 
-  <figcaption><i>GNSS trait creation dialog</i></figcaption> 
-</figure>
-
-Collect layout
---------------
-
-<figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_gnss_framed.png" width="350px"> 
-  <figcaption><i>GNSS trait collection interface</i></figcaption> 
+  <img src="_static/images/traits/formats/gnss_format_joined.png" width="700px"> 
+  <figcaption><i>GNSS trait creation dialog and collect format</i></figcaption> 
 </figure>
 
 Details

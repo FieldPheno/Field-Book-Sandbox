@@ -10,13 +10,8 @@ Creation
 --------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_camera_options_framed.png" width="350px"> 
-  <figcaption><i>Photo trait device options</i></figcaption> 
-</figure>
-
-<figure align="center" class="image">
-  <img src="_static/images/traits/formats/create_photo_framed.png" width="350px"> 
-  <figcaption><i>Photo trait creation dialog (system camera)</i></figcaption> 
+  <img src="_static/images/traits/formats/create_photo_joined.png" width="700px"> 
+  <figcaption><i>Photo trait creation (system camera)</i></figcaption> 
 </figure>
 
 On the collect page, pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/shutter.png" width="20px"> icon captures an image from the camera. Pressing the <img ref="connect" style="vertical-align: middle;" src="_static/icons/formats/cog.png" width="20px"> icon opens a settings dialog, where the resolution, preview, and capture options can be adjusted. Multiple photos can be captured for each entry. 
@@ -25,13 +20,8 @@ Collect layout
 --------------
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_photo_framed.png" width="350px"> 
-  <figcaption><i>Photo trait collection interface (system camera)</i></figcaption> 
-</figure>
-
-<figure align="center" class="image">
-  <img src="_static/images/traits/formats/collect_photo_settings_framed.png" width="350px"> 
-  <figcaption><i>Photo trait collection settings (system camera)</i></figcaption> 
+  <img src="_static/images/traits/formats/collect_photo_joined.png" width="700px"> 
+  <figcaption><i>Photo trait collection interface and settings (system camera)</i></figcaption> 
 </figure>
 
 Captured photos are stored in `.jpg` format, and named by using underscores to join the entry's unique_id, the trait name, the photo number, and a timestamp. The resulting files are stored in a picture folder within a field-specific subfolder of `plot_data`. An example photo filepath would be `plot_data/FIELD_NAME/picture/PHOTO_FILE_NAME.jpg`.
