@@ -15,9 +15,9 @@ First, consider if it's possible to import data without prepping your own custom
 
 If it is necessary to prepare your own custom files:
 
-    Custom fields can be loaded by preparing a spreadsheet. The required information is detailed in the <a href="fields.md"><img style="vertical-align: middle;" src="_static/icons/home/view-module.png" width="20px"></a> [Fields](fields.md) section of the docs. The app comes with a handful of sample fields that are loaded from files, so you can also look at `field_sample.csv` in the `/field_import` folder for guidance.
+- Custom fields can be loaded by preparing a spreadsheet. The required information is detailed in the <a href="fields.md"><img style="vertical-align: middle;" src="_static/icons/home/view-module.png" width="20px"></a> [Fields](fields.md) section of the docs. The app comes with a handful of sample fields that are loaded from files, so you can also look at `field_sample.csv` in the `/field_import` folder for guidance.
 
-    Custom traits are best created directly in the app, but can be saved to and loaded from a `.trt` file. The `.trt` extension is not a special format, it is just a `.csv` file by a different name, so can be opened and edited if needed. The app comes with a handful of sample traits that are loaded from a file, so you can also look at `trait_sample.trt` in the `/trait` folder for guidance.
+- Custom traits are best created directly in the app, but can be saved to and loaded from a `.trt` file. The `.trt` extension is not a special format, it is just a `.csv` file by a different name, so can be opened and edited if needed. The app comes with a handful of sample traits that are loaded from a file, so you can also look at `trait_sample.trt` in the `/trait` folder for guidance.
 
 What filetypes are compatible with Field Book?
 ----------------------------------------------
