@@ -16,7 +16,7 @@ Recorded audio files are stored in `.mp3` format, and named with the entry's uni
 timestamp. The resulting files are stored in an audio folder within a field-specific subfolder of `plot_data`. An example audio filepath would be `plot_data/FIELD_NAME/audio/AUDIO_FILE_NAME.mp3`.
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/audio_format_framed.png" width="700px"> 
+  <img src="_static/images/traits/formats/audio_format_joined.png" width="700px"> 
   <figcaption><i>Audio trait creation dialog and collect format</i></figcaption> 
 </figure>
 

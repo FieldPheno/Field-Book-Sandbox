@@ -8,6 +8,6 @@ On the collect screen, the current date is displayed by default and can
 be incremented forwards or backwards in single day intervals. Press the bottom calendar icon to open the date picker if you're desired date is far away from the current date. 
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/date_format_framed.png" width="1100px"> 
+  <img src="_static/images/traits/formats/date_format_joined.png" width="1100px"> 
   <figcaption><i>Date trait creation dialog, collect format, and date picker</i></figcaption> 
 </figure>

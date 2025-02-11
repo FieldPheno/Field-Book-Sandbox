@@ -8,6 +8,6 @@ On the collect screen, the counter starts at zero and can be incremented
 or decremented via the **+1** and **-1** buttons.
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/counter_format_framed.png" width="700px"> 
+  <img src="_static/images/traits/formats/counter_format_joined.png" width="700px"> 
   <figcaption><i>Counter trait creation dialog and collect format</i></figcaption> 
 </figure>

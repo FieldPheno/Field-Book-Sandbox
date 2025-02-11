@@ -11,6 +11,6 @@ connected to an external location source, the coordinates from this
 source will be used instead of the device's internal GPS.
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/location_format_framed.png" width="700px"> 
+  <img src="_static/images/traits/formats/location_format_joined.png" width="700px"> 
   <figcaption><i>Location trait creation dialog and collect format</i></figcaption> 
 </figure>

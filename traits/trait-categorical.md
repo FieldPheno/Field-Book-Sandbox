@@ -10,6 +10,6 @@ Defined categories are displayed as buttons on the collect screen; a
 single category can be selected per entry.
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/categorical_format_framed.png" width="700px"> 
+  <img src="_static/images/traits/formats/categorical_format_joined.png" width="700px"> 
   <figcaption><i>Categorical trait creation dialog and collect format</i></figcaption> 
 </figure>

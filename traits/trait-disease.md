@@ -13,6 +13,6 @@ allows varying incidence rates to be recorded (e.g., heterogenous
 response within a plot).
 
 <figure align="center" class="image">
-  <img src="_static/images/traits/formats/disease_format_framed.png" width="700px"> 
+  <img src="_static/images/traits/formats/disease_format_joined.png" width="700px"> 
   <figcaption><i>Disease trait creation dialog and collect format</i></figcaption> 
 </figure>
