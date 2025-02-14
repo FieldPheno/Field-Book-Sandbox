@@ -6,7 +6,7 @@ Settings
   <figcaption><i>Settings screen layout</i></figcaption> 
 </figure>
 
-Field Book settings are grouped into eight subcategories:
+Field Book settings are grouped into ten subcategories:
 
 -   <a href="settings-profile.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/account.png" width="20px"></a> [Profile Settings](settings-profile.md) set the identity of the person collecting data.
 -   <a href="settings-appearance.md"><img style="vertical-align: middle;" src="_static/icons/settings/main/view-grid-outline.png" width="20px"></a> [Appearance Settings](settings-appearance.md) change language, app colors, icons, or layouts.
