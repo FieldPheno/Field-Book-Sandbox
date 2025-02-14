@@ -3,6 +3,7 @@
   * [Storage](storage.md)
   * [Fields](fields.md)
   * [Traits](traits.md)
+  * Trait Formats
     * [Audio](traits/trait-audio.md)
     * [Boolean](traits/trait-boolean.md)
     * [Categorical](traits/trait-categorical.md)
