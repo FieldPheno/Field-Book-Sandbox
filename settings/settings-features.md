@@ -2,7 +2,7 @@ Features Settings
 =================
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/general/settings_features_framed.png" width="350px"> 
+  <img src="_static/images/settings/features/settings_features_framed.png" width="350px"> 
   <figcaption><i>Features settings screen layout</i></figcaption> 
 </figure>
 
