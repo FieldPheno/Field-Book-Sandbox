@@ -78,6 +78,13 @@ can be pressed to adjust which data field is displayed.
 
 An infobar can show one of the attributes imported with the field, or the value of a trait. The number of infobars can also be changed by pressing "customize" in the bottom left of the dialog, this navigates the the "numnber of infobars" preference in the <a href="settings-appearance.md"><img style="vertical-align: middle;" src="_static/icons/settings/appearance/view-grid-outline.png" width="20px"></a> [Appearance Settings](settings-appearance.md).
 
+If an infobar's value gets cut off because it is too long to fit on one line you can longpress it to enable word wrap. When word wrap in on, any long values for that infobar will automatically wrap to the next line. Longpress a wrapped infobar again to disable word wrap.
+
+<figure align="center" class="image">
+  <img src="_static/images/collect/collect_infobar_wordwrap_joined.png" width="700px"> 
+  <figcaption><i>Enabling word wrap for an infobar showing long pedigree strings</i></figcaption> 
+</figure>
+
 #### Trait navigation
 
 <figure align="center" class="image">
