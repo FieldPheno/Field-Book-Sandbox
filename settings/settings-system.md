@@ -32,3 +32,11 @@ app doesn't ask each time.
   <img src="_static/images/settings/system/settings_system_export_sources.png" width="325px"> 
   <figcaption><i>Default export options</i></figcaption> 
 </figure>
+
+Crashlytics
+-----------
+
+#### <img ref="id" style="vertical-align: middle;" src="_static/icons/settings/profile/card-account-details-outline.png" width="20px"> Unique ID
+
+Creates a unique ID for use in generating more specific crash logs. This
+helps the development team when troubleshooting and improving Field Book
