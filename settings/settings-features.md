@@ -10,8 +10,12 @@ Features Settings
 
 Adds a
 <img ref="tutorial" style="vertical-align: middle;" src="_static/icons/settings/appearance/help-circle.png" width="20px">
-icon to the toolbar that enables the tutorial. The tutorial provides
-contextual information throughout the app.
+icon to the toolbar that enables the tutorial. Press the icon, then the highlighted items, to step through details of the features in any part of the app.
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/features/settings_features_tutorial_framed.png" width="350px"> 
+  <figcaption><i>A tutorial explanation on the Collect screen </i></figcaption> 
+</figure>
 
 Collect Toolbar
 ---------------
