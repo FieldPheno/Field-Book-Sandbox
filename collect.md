@@ -29,7 +29,7 @@ to the back navigation arrow).
 
 <figure align="center" class="image">
   <img src="_static/images/collect/collect_toolbar_highlight_framed.png" width="350px"> 
-  <figcaption><i>Collect screen top toolbar</i></figcaption> 
+  <figcaption><i>Collect screen with the top toolbar highlighted</i></figcaption> 
 </figure>
 
 -   <img ref="search" style="vertical-align: middle;" src="_static/icons/collect/magnify.png" width="20px"> **Search** opens a dialog to search for a specific entry.
