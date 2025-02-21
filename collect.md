@@ -27,6 +27,11 @@ Collect Screen Details
 By default there are four buttons at the top of the screen (in addtion
 to the back navigation arrow).
 
+<figure align="center" class="image">
+  <img src="_static/images/collect/collect_toolbar_highlight_framed.png" width="350px"> 
+  <figcaption><i>Collect screen top toolbar</i></figcaption> 
+</figure>
+
 -   <img ref="search" style="vertical-align: middle;" src="_static/icons/collect/magnify.png" width="20px"> **Search** opens a dialog to search for a specific entry.
 
 <figure align="center" class="image">
@@ -82,7 +87,7 @@ If an infobar's value gets cut off because it is too long to fit on one line you
 
 <figure align="center" class="image">
   <img src="_static/images/collect/collect_infobar_wordwrap_joined.png" width="700px"> 
-  <figcaption><i>Enabling word wrap for an infobar showing long pedigree strings</i></figcaption> 
+  <figcaption><i>Enabling word wrap for long pedigree strings</i></figcaption> 
 </figure>
 
 #### Trait navigation
