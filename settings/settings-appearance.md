@@ -56,7 +56,7 @@ the Collect screen.
 Infobars</i></figcaption> 
 </figure>
 
-#### <img ref="infobars" style="vertical-align: middle;" src="_static/icons/settings/appearance/eye-off.png" width="20px"> Hide Infobar prefix
+#### <img ref="prefixes" style="vertical-align: middle;" src="_static/icons/settings/appearance/eye-off.png" width="20px"> Hide Infobar prefix
 
 Check to display icons in place of infobar prefixes.
 

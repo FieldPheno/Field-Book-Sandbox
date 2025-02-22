@@ -10,12 +10,12 @@ layout</i></figcaption>
 Movement
 --------
 
-#### <img ref="repeat" style="vertical-align: middle;" src="_static/icons/settings/behavior/repeat.png" width="20px"> Auto-Advance Entry
+#### <img ref="advance-entry" style="vertical-align: middle;" src="_static/icons/settings/behavior/repeat.png" width="20px"> Auto-Advance Entry
 
 When enabled, once all active traits have been cycled, the app
 automatically advances to the next entry.
 
-#### <img ref="repeat" style="vertical-align: middle;" src="_static/icons/settings/behavior/ray-start-arrow.png" width="20px"> Auto-Reset Traits
+#### <img ref="advance-trait" style="vertical-align: middle;" src="_static/icons/settings/behavior/ray-start-arrow.png" width="20px"> Auto-Reset Traits
 When enabled, advancing to the next entry automatically resets to the first trait.
 
 #### <img ref="arrow" style="vertical-align: middle;" src="_static/icons/settings/behavior/unfold-more-vertical.png" width="20px"> Require Data To Move Entry

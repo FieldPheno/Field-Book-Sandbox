@@ -9,11 +9,11 @@ Location Settings
 GeoCoordinates
 --------------
 
-#### <img ref="gps" style="vertical-align: middle;" src="_static/icons/formats/crosshairs-gps.png" width="20px"> Location Provider
+#### <img ref="provider" style="vertical-align: middle;" src="_static/icons/formats/crosshairs-gps.png" width="20px"> Location Provider
 
 Set the source of location data. The device gps or connect an external device with bluetooth.
 
-#### <img ref="gps" style="vertical-align: middle;" src="_static/icons/formats/select-marker.png" width="20px"> Collection Level
+#### <img ref="gps" style="vertical-align: middle;" src="_static/icons/settings/location/select-marker.png" width="20px"> Collection Level
 
 Set the method for collecting location while using Field Book. Can be at
 the level of the field, the plot, or the individual observation.
@@ -37,11 +37,11 @@ The method used to match GPS location to entry. Defaults to the distance
 method.
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/location/settings_geonav_search_method.png" width="325px"> 
+  <img src="_static/images/settings/location/settings_location_search_method.png" width="325px"> 
   <figcaption><i>GeoNav search method options</i></figcaption> 
 </figure>
 
-#### <img ref="log" style="vertical-align: middle;" src="_static/icons/settings/location/signal-distance-variant.png" width="20px"> Proximity Check
+#### <img ref="distance" style="vertical-align: middle;" src="_static/icons/settings/location/signal-distance-variant.png" width="20px"> Proximity Check
 
 Set the distance in km from known plots at which GeoNav should turn off.
 
@@ -55,6 +55,6 @@ Changes the time between GeoNav location updates. Can be set to 1s
 (default), 5s, or 10s
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/location/settings_geonav_update_interval.png" width="325px"> 
+  <img src="_static/images/settings/location/settings_location_update_interval.png" width="325px"> 
   <figcaption><i>GeoNav interval options</i></figcaption> 
 </figure>
