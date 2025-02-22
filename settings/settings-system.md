@@ -6,8 +6,8 @@ System Settings
   <figcaption><i>System settings screen layout</i></figcaption> 
 </figure>
 
-System Defaults
----------------
+Defaults
+--------
 
 #### <img ref="sd" style="vertical-align: middle;" src="_static/icons/settings/system/sd.png" width="20px">  Define storage location
 
@@ -32,6 +32,10 @@ app doesn't ask each time.
   <img src="_static/images/settings/system/settings_system_export_sources.png" width="325px"> 
   <figcaption><i>Default export options</i></figcaption> 
 </figure>
+
+#### <img ref="sharing" style="vertical-align: middle;" src="_static/icons/settings/behavior/share.png" width="20px"> Enable File Sharing
+
+Turns off the share dialog that opens by default when data is exported.
 
 Crashlytics
 -----------
