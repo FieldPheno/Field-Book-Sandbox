@@ -31,17 +31,10 @@ options.
   <figcaption><i>Language options</i></figcaption> 
 </figure>
 
-#### <img ref="tutorial" style="vertical-align: middle;" src="_static/icons/settings/appearance/help-circle.png" width="20px"> Tutorial
-
-Adds a
-<img ref="tutorial" style="vertical-align: middle;" src="_static/icons/settings/appearance/help-circle.png" width="20px">
-icon to the toolbar that enables the tutorial. The tutorial provides
-contextual information throughout the app.
-
 Collect Screen
 --------------
 
-#### <img ref="icons" style="vertical-align: middle;" src="_static/icons/settings/appearance/server-minus.png" width="20px"> Customize toolbar icons
+#### <img ref="icons" style="vertical-align: middle;" src="_static/icons/settings/appearance/server-minus.png" width="20px"> Toolbar Actions
 
 Allows the user to change which default toolbar buttons are displayed on
 the Collect screen.
@@ -61,6 +54,15 @@ the Collect screen.
   <img src="_static/images/settings/appearance/settings_appearance_number_infobars.png" width="325px"> 
   <figcaption><i>Choice of number of
 Infobars</i></figcaption> 
+</figure>
+
+#### <img ref="infobars" style="vertical-align: middle;" src="_static/icons/settings/appearance/eye-off.png" width="20px"> Hide Infobar prefix
+
+Check to display icons in place of infobar prefixes.
+
+<figure align="center" class="image">
+  <img src="_static/images/settings/appearance/settings_appearance_infobar_prefixes_framed.png" width="325px"> 
+  <figcaption><i>Infobars with infobar prefixes hidden</i></figcaption> 
 </figure>
 
 #### <img ref="goto" style="vertical-align: middle;" src="_static/icons/settings/appearance/run-fast.png" width="20px"> Quick GoTo
