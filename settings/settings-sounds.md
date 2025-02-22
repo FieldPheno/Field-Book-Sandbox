@@ -10,27 +10,27 @@ layout</i></figcaption>
 Sounds
 ------
 
-#### <img ref="primary" style="vertical-align: middle;" src="_static/icons/settings/sounds/numeric-1-box.png" width="20px"> Primary order sound
+#### <img ref="primary" style="vertical-align: middle;" src="_static/icons/settings/sounds/numeric-1-box.png" width="20px"> Change Primary Order
 
 Makes a sound when the primary order changes. Useful for knowing when to
 move to the next field row.
 
-#### <img ref="play" style="vertical-align: middle;" src="_static/icons/settings/sounds/play-circle-outline.png" width="20px"> Entry navigation sound
+#### <img ref="play" style="vertical-align: middle;" src="_static/icons/settings/sounds/play-circle-outline.png" width="20px"> Change Entry
 
 Makes a sound when the entry changes on the Collect screen. Can alert to
 accidental entry advancement.
 
-#### <img ref="cycle" style="vertical-align: middle;" src="_static/icons/settings/sounds/repeat.png" width="20px"> Cycle traits sound
+#### <img ref="cycle" style="vertical-align: middle;" src="_static/icons/settings/sounds/repeat.png" width="20px"> Cycle Traits
 
 Makes a sound when all the active traits have been cycled through.
 Useful for knowing when to move to the next entry.
 
-#### <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> Delete Observation Sound
+#### <img ref="delete" style="vertical-align: middle;" src="_static/icons/settings/sounds/delete.png" width="20px"> Delete Observation
 
 Makes a sound when a recorded value is deleted in the Collect screen.
 
-Speech
-------
+Text to Speech
+--------------
 
 #### <img ref="speech" style="vertical-align: middle;" src="_static/icons/settings/sounds/microphone-message.png" width="20px"> Text to Speech
 
