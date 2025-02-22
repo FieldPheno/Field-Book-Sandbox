@@ -24,7 +24,7 @@ Disables the left, right, or both entry arrows unless data has been
 collected to ensure an entry isn't skipped during data collection.
 
 <figure align="center" class="image">
-  <img src="_static/images/settings/behavior/settings_behavior_disable_nav.png" width="325px"> 
+  <img src="_static/images/settings/behavior/settings_behavior_require_data.png" width="325px"> 
   <figcaption><i>Choice of direction
 disabled</i></figcaption> 
 </figure>
@@ -68,7 +68,7 @@ behavior</i></figcaption>
 Data
 ----
 
-#### <img ref="day" style="vertical-align: middle;" src="_static/icons/settings/behavior/calendar-today.png" width="20px"> Use day of year
+#### <img ref="day" style="vertical-align: middle;" src="_static/icons/settings/behavior/calendar-today.png" width="20px"> Use Day Of Year
 
 Changes the date trait format to record date values as numbers counting
 up from Jan 1, rather than traditional dates. For example `96` instead
