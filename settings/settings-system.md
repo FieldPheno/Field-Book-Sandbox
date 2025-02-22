@@ -9,11 +9,7 @@ System Settings
 Defaults
 --------
 
-#### <img ref="sd" style="vertical-align: middle;" src="_static/icons/settings/system/sd.png" width="20px">  Define storage location
-
-Opens the <a href="#/storage">Storage</a> dialog to define or update the **Storage location** on the device.
-
-#### <img ref="import" style="vertical-align: middle;" src="_static/icons/settings/system/application-import.png" width="20px"> Default import source
+#### <img ref="import" style="vertical-align: middle;" src="_static/icons/settings/system/application-import.png" width="20px"> Import Source
 
 Set the default field and trait import source to one of the provided
 options so the app doesn't ask each time.
@@ -23,7 +19,7 @@ options so the app doesn't ask each time.
   <figcaption><i>Default import options</i></figcaption> 
 </figure>
 
-#### <img ref="export" style="vertical-align: middle;" src="_static/icons/settings/system/application-export.png" width="20px"> Default export source
+#### <img ref="export" style="vertical-align: middle;" src="_static/icons/settings/system/application-export.png" width="20px"> Export Source
 
 Sets the default export location to one of the provided options so the
 app doesn't ask each time.
@@ -33,9 +29,16 @@ app doesn't ask each time.
   <figcaption><i>Default export options</i></figcaption> 
 </figure>
 
-#### <img ref="sharing" style="vertical-align: middle;" src="_static/icons/settings/behavior/share.png" width="20px"> Enable File Sharing
+#### <img ref="sharing" style="vertical-align: middle;" src="_static/icons/settings/system/share.png" width="20px"> Enable File Sharing
 
 Turns off the share dialog that opens by default when data is exported.
+
+Settings
+--------
+
+#### <img ref="reset" style="vertical-align: middle;" src="_static/icons/settings/system/refresh.png" width="20px"> Reset Settings
+
+Returns all Field Book settings to defaults.
 
 Crashlytics
 -----------

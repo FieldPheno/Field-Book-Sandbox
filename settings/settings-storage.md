@@ -7,6 +7,11 @@ Storage Settings
 layout</i></figcaption> 
 </figure>
 
+
+#### <img ref="sd" style="vertical-align: middle;" src="_static/icons/settings/system/sd.png" width="20px">  Define storage location
+
+Opens the <a href="#/storage">Storage</a> dialog to define or update the **Storage location** on the device.
+
 #### <img ref="import" style="vertical-align: middle;" src="_static/icons/settings/storage/database-import.png" width="20px"> Import database
 
 Imports a database from an exported database file. This replaces the
